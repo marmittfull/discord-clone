@@ -2,6 +2,6 @@
 
 Este projeto trata-se de um clone da página principal do software Discord.
 
-### Tecnologia
+### Tecnologias
 
 ReactJS, Typescript & Styled-components
