@@ -1,8 +1,16 @@
 import React from 'react'
+ 
+import Layout from './components/Layout'
+import GlobalStyles from './styles/GlobalStyles'
 
-function App(){
-  return(
-    <h1>cloning discord</h1>
+
+function App() {
+  return (
+    <>
+      <Layout />
+
+      <GlobalStyles />
+    </>
   )
 }
 export default App
