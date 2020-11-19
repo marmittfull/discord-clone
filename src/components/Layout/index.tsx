@@ -5,6 +5,7 @@ import ServerList from '../ServerList'
 import ServerName from '../ServerName'
 import ChannelInfo from '../ChannelInfo'
 import ChannelList from '../ChannelList'
+import ChannelData from '../ChannelData'
 import UserInfo from '../UserInfo'
 import UserList from '../UserList'
 
@@ -20,6 +21,8 @@ const Layout: React.FC = () => {
       <ChannelList />
 
       <UserInfo />
+
+      <ChannelData />
 
       <UserList />
     </Grid>
